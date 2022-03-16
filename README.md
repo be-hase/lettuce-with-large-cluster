@@ -5,6 +5,8 @@
 For Redis Cluster with a large number of nodes, using [enablePeriodicRefresh](https://github.com/lettuce-io/lettuce-core/blob/a462cc1ca2dc009f8d1ea3d7af8fd3614348b077/src/main/java/io/lettuce/core/cluster/ClusterTopologyRefreshOptions.java#L258) causes
 performance problems.
 
+https://github.com/lettuce-io/lettuce-core/issues/2045
+
 ## Reproduction Steps
 
 ### 1. Run Redis Cluster using Docker
