@@ -129,3 +129,8 @@ Looking at the previous framegraph, it seems that the overhead is large in the p
 Why not change to a more primitive method like `boolean[]` ?
 
 However, I'm not sure if the performance will improve.
+
+## Conclusion
+
+Submitted PR and merged.
+https://github.com/lettuce-io/lettuce-core/pull/2048
